@@ -61,17 +61,17 @@
                 <tr>
                     <td>{{$product->id}}</td>
                     <td>{{$product->title}}</td>
-                    <td>{{$product->cat_info['title']}}
+                    {{-- <td>{{$product->cat_info['title']}}
                       <sub>
                           {{$product->sub_cat_info->title ?? ''}}
                       </sub>
-                    </td>
+                    </td> --}}
                     <td>{{(($product->is_featured==1)? 'Yes': 'No')}}</td>
                     <td>Rs. {{$product->price}} /-</td>
                     <td>  {{$product->discount}}% OFF</td>
                     <td>{{$product->size}}</td>
                     <td>{{$product->condition}}</td>
-                    {{-- <td> {{ucfirst($product->brand->title)}}</td> --}}<td></td>
+                    <td> {{ucfirst($product->brand->title)}}</td><td></td>
                     <td>
                       @if($product->stock>0)
                       <span class="badge badge-primary">{{$product->stock}}</span>

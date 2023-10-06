@@ -248,7 +248,7 @@ Version:1.0
 }
 .header.v3 .navbar-expand-lg .navbar-collapse{
 	display:block !important;
-	background:#333;
+	background:#333333;
 }
 .header .nav li a i {
 	margin-left: 6px;
@@ -755,7 +755,7 @@ Version:1.0
 	border-top:1px solid #eee;
 }
 .header.shop .topbar p {
-	color: #333;
+	color: #333333;
 }
 .header.shop .all-category {
 	color: #fff;

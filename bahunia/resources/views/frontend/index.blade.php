@@ -19,6 +19,7 @@
                         <p>{!! html_entity_decode($banner->description) !!}</p>
                         <a class="btn btn-lg ws-btn wow fadeInUpBig" href="{{route('product-grids')}}" role="button">Shop Now<i class="far fa-arrow-alt-circle-right"></i></i></a>
                     </div> --}}
+                    
                 </div>
             @endforeach
         </div>

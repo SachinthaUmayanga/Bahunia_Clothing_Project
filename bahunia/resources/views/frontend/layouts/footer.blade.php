@@ -61,6 +61,12 @@
 							</div>
 							<!-- End Single Widget -->
 							{{-- <div class="sharethis-inline-follow-buttons"></div> --}}
+							<div class="social-icons">
+								<a href="https://www.facebook.com/yourfacebookpage" target="_blank"><i class="fa fa-facebook" style="color: #1877f2;"></i></a>
+								<a href="https://twitter.com/yourtwitterpage" target="_blank"><i class="fa fa-twitter" style="color: #1da1f2;"></i></a>
+								<a href="https://www.instagram.com/yourinstagrampage" target="_blank"><i class="fa fa-instagram" style="color: #bc2a8d;"></i></a>
+								<!-- Add more social media icons as needed -->
+							</div>
 						</div>
 						<!-- End Single Widget -->
 					</div>
@@ -125,6 +131,7 @@
 	<!-- Active JS -->
 	<script src="{{asset('frontend/js/active.js')}}"></script>
 
+	
 	
 	@stack('scripts')
 	<script>

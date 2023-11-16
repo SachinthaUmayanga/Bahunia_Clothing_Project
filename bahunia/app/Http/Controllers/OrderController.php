@@ -304,4 +304,14 @@ class OrderController extends Controller
         }
         return $data;
     }
+    // Add this method in your OrderController
+public function filter(Request $request)
+{
+    $start_date = $request->input('start_date');
+    $end_date = $request->input('end_date');
+
+    $orders = Order::whereBetween('created_at', [$start_date, $end_date])->get();
+
+    return view('backend.order.index', compact('orders'));
+}
 }

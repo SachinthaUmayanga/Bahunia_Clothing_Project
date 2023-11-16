@@ -186,3 +186,7 @@
     Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
         \UniSharp\LaravelFilemanager\Lfm::routes();
     });
+
+
+    // Add this route in web.php
+Route::post('/orders/filter', 'OrderController@filter')->name('order.filter');

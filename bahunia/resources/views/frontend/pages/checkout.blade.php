@@ -572,7 +572,7 @@
 				let subtotal = parseFloat( $('.order_subtotal').data('price') ); 
 				let coupon = parseFloat( $('.coupon_price').data('price') ) || 0; 
 				// alert(coupon);
-				$('#order_total_price span').text('$'+(subtotal + cost-coupon).toFixed(2));
+				$('#order_total_price span').text('Rs. '+(subtotal + cost-coupon).toFixed(2));
 			});
 
 		});

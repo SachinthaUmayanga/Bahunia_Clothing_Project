@@ -112,7 +112,7 @@
                         <!-- Single Widget -->
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
-                        {{-- <div class="single-widget side-tags">
+                        <div class="single-widget side-tags">
                             <h3 class="title">Tags</h3>
                             <ul class="tag">
                                 @if(!empty($_GET['tag']))
@@ -131,7 +131,7 @@
                                     @endforeach
                                 </form>
                             </ul>
-                        </div> --}}
+                        </div>
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget newsletter">

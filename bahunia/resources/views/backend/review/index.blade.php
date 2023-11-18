@@ -18,7 +18,7 @@
           <thead>
             <tr>
               <th>S.N.</th>
-              <th>Review By</th>
+              {{-- <th>Review By</th> --}}
               <th>Product Title</th>
               <th>Review</th>
               <th>Rate</th>
@@ -30,7 +30,7 @@
           <tfoot>
             <tr>
               <th>S.N.</th>
-              <th>Review By</th>
+              {{-- <th>Review By</th> --}}
               <th>Product Title</th>
               <th>Review</th>
               <th>Rate</th>
@@ -43,7 +43,7 @@
             @foreach($reviews as $review)
                 <tr>
                     <td>{{$review->id}}</td>
-                    <td>{{$review->user_info['name']}}</td>
+                    {{-- <td>{{$review->user_info['name']}}</td> --}}
                     <td>{{$review->product->title}}</td>
                     <td>{{$review->review}}</td>
                     <td>

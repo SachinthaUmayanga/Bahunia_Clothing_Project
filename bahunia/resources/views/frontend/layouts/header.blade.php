@@ -52,7 +52,7 @@
                             $settings=DB::table('settings')->get();
                         @endphp   
 
-                        <h3>BAHUNIA</h3>                 
+                        <h3>BAUHINIA</h3>                 
                         {{-- <a href="{{route('home')}}"><img src="@foreach($settings as $data) {{$data->logo}} @endforeach" alt="logo"></a> --}}
                     </div>
                     <!--/ End Logo -->

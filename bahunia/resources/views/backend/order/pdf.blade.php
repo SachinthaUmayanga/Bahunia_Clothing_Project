@@ -129,7 +129,7 @@
               @endforeach
             </span></td>
           <td>x{{$cart->quantity}}</td>
-          <td><span>${{number_format($cart->price,2)}}</span></td>
+          <td><span>Rs.{{number_format($cart->price,2)}}</span></td>
         </tr>
       @endforeach
       </tbody>

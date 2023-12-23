@@ -9,7 +9,7 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<h5 class="text">BAHUNIA</h5>
+								<h5 class="text">BAUHINIA</h5>
 							</div>
 							@php
 								$settings=DB::table('settings')->get();
@@ -80,7 +80,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-12">
 							<div class="left">
-								<p>Copyright © {{date('Y')}} <a href="#" target="_blank">Bahunia</a>  -  All Rights Reserved.</p>
+								<p>Copyright © {{date('Y')}} <a href="#" target="_blank">BAUHINIA</a>  -  All Rights Reserved.</p>
 							</div>
 						</div>
 						<div class="col-lg-6 col-12">
